@@ -1,16 +1,31 @@
-# React + Vite
+# Landing Conektica
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Una **página de aterrizaje (landing page)** moderna desarrollada con **React y Vite**. Esta landing está pensada para presentar servicios, capturar la atención de usuarios y convertir visitantes en clientes o oportunidades de contacto.  [oai_citation:0‡Conektica](https://conektica.com/atrae-engancha-y-convierte-el-poder-de-una-landing-page?utm_source=chatgpt.com)
 
-Currently, two official plugins are available:
+## 📌 ¿Qué es este proyecto?
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Este repositorio contiene el código fuente de una **landing page profesional** creada desde cero con React y Vite.  
+La página está diseñada para ser usada en campañas de marketing o como página principal de promoción para una marca o servicio.
 
-## React Compiler
+## 🛠️ Tecnologías utilizadas
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **React** – Biblioteca para construir interfaces de usuario.
+- **Vite** – Herramienta de construcción rápida para proyectos frontend.  
+Estas herramientas proporcionan una estructura moderna, rendimiento mejorado y una experiencia de desarrollo ágil.
 
-## Expanding the ESLint configuration
+## 🚀 ¿Qué puedes hacer con esta landing?
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Mostrar una propuesta de valor clara al visitante.
+- Presentar secciones de información (beneficios, servicios, contacto).
+- Integrar formularios de conversión si se desea.
+- Ser desplegada fácilmente en servicios como **GitHub Pages**, **Netlify** o **Vercel**.
+
+## 📂 Estructura del proyecto
+
+```plaintext
+landing-conektica/
+├─ public/               # Archivos estáticos
+├─ src/                  # Código fuente de React
+├─ index.html            # Entrada principal
+├─ package.json          # Dependencias y scripts
+└─ README.md             # Documentación del proyecto
