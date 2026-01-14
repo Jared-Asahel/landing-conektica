@@ -1,0 +1,26 @@
+.footer {
+  font-family: "Inter", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 20px;
+  background-color: #0e0e0e;
+  color: #bbb;
+  border-top: 2px solid #ffa42c;
+  text-align: center;
+}
+
+.footer p {
+  margin: 6px 0;
+  font-size: 0.95rem;
+}
+
+.footer a {
+  color: #ffa42c;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer a:hover {
+  color: #ff8c00;
+}

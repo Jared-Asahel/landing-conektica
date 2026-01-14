@@ -1,0 +1,12 @@
+@import url("./vendor/normalize.css");
+@import url("./vendor/fonts.css");
+@import url("./blocks/header.css");
+@import url("./blocks/page.css");
+@import url("./blocks/form.css");
+@import url("./blocks/methodology.css");
+@import url("./blocks/targets.css");
+@import url("./blocks/results.css");
+@import url("./blocks/confirmation.css");
+@import url("./blocks/footer.css");
+@import url("./blocks/contact.css");
+@import url("./blocks/nosotros.css");
