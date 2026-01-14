@@ -1,20 +1,17 @@
 .methodology {
   display: flex;
+  align-items: center;
   font-family: "Inter";
   gap: 30px;
   padding: 60px 20px;
   box-sizing: border-box;
-  background: linear-gradient(
-    180deg,
-    #1a1a1a 0%,
-    #242424 50%,
-    #2c2c2c 100%
-  ); /* Fondo negro degradado */
+  background: linear-gradient(180deg, #1a1a1a 0%, #242424 50%, #2c2c2c 100%);
   border-top: 4px solid #ff8c00;
   border-bottom: 4px solid #e97500;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
 }
 
+/* Imagen */
 .methodology img {
   max-width: 600px;
   width: 100%;
@@ -29,10 +26,11 @@
   box-shadow: 0 0 20px rgba(255, 140, 0, 0.6);
 }
 
+/* Texto */
 .methodology p {
   font-size: 18px;
   color: #f0f0f0;
-  word-spacing: 6px;
+  word-spacing: 4px;
   line-height: 1.6;
   text-align: justify;
 }
@@ -42,4 +40,51 @@
   color: #fff;
   margin-bottom: 20px;
   text-shadow: 0 0 8px rgba(255, 140, 0, 0.4);
+}
+
+/* =========================
+   TABLET (<= 1024px)
+========================= */
+@media (max-width: 1024px) {
+  .methodology {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .methodology img {
+    max-width: 500px;
+  }
+
+  .methodology__titles {
+    font-size: 34px;
+  }
+
+  .methodology p {
+    font-size: 17px;
+  }
+}
+
+/* =========================
+   MOBILE (<= 660px)
+========================= */
+@media (max-width: 660px) {
+  .methodology {
+    padding: 40px 16px;
+    gap: 20px;
+  }
+
+  .methodology img {
+    max-width: 100%;
+  }
+
+  .methodology__titles {
+    font-size: 26px;
+    text-align: center;
+  }
+
+  .methodology p {
+    font-size: 16px;
+    word-spacing: normal;
+    text-align: left;
+  }
 }

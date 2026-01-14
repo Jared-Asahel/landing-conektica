@@ -70,7 +70,6 @@
 
 /* Botón principal */
 .header__button {
-  border: 2px solid transparent;
   background: linear-gradient(90deg, #ffa42c, #e97500, #cc5500);
   padding: 10px 20px;
   border-radius: 10px;

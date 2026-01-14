@@ -11,25 +11,26 @@
   text-align: center;
 }
 
+/* Título */
 .confirmation__title {
   font-size: 44px;
   max-width: 700px;
-  text-align: center;
   margin-bottom: 20px;
   color: #fff;
   text-shadow: 0 0 12px rgba(255, 140, 0, 0.6);
 }
 
+/* Texto */
 .confirmation__paragraph {
   font-size: 18px;
   color: #cccccc;
   word-spacing: 3px;
   line-height: 1.6;
   max-width: 700px;
-  text-align: center;
   margin-bottom: 40px;
 }
 
+/* Botón */
 .confirmation__button {
   width: 380px;
   border: none;
@@ -51,4 +52,52 @@
   border: 3px solid #ff8c00;
   color: #fff;
   box-shadow: 0 0 20px rgba(255, 140, 0, 0.5);
+}
+
+/* =========================
+   TABLET (<= 1024px)
+========================= */
+@media (max-width: 1024px) {
+  .confirmation {
+    padding: 65px 20px;
+  }
+
+  .confirmation__title {
+    font-size: 36px;
+  }
+
+  .confirmation__paragraph {
+    font-size: 17px;
+    margin-bottom: 35px;
+  }
+
+  .confirmation__button {
+    width: 320px;
+  }
+}
+
+/* =========================
+   MOBILE (<= 660px)
+========================= */
+@media (max-width: 660px) {
+  .confirmation {
+    padding: 50px 16px;
+  }
+
+  .confirmation__title {
+    font-size: 26px;
+  }
+
+  .confirmation__paragraph {
+    font-size: 16px;
+    word-spacing: normal;
+    margin-bottom: 30px;
+  }
+
+  .confirmation__button {
+    width: 100%;
+    max-width: 320px;
+    padding: 14px;
+    font-size: 15px;
+  }
 }
