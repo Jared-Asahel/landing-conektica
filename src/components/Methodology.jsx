@@ -2,7 +2,7 @@ const Methodology = () => {
   return (
     <div className="methodology">
       <img
-        src="https://empresarialtde.com.mx/wp-content/uploads/2022/09/red-de-ventas.jpeg"
+        src="https://img.freepik.com/foto-gratis/empresarios-estrechar-mano-reunion_1423-87.jpg"
         alt=""
       />
       <div>
